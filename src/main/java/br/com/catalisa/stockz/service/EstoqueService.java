@@ -6,13 +6,10 @@ import br.com.catalisa.stockz.model.Produto;
 import br.com.catalisa.stockz.model.Transacao;
 import br.com.catalisa.stockz.model.dto.EstoqueDTO;
 import br.com.catalisa.stockz.repository.EstoqueRepository;
-import br.com.catalisa.stockz.repository.TransacaoEntradaRepository;
-import br.com.catalisa.stockz.repository.TransacaoSaidaRepository;
 import br.com.catalisa.stockz.utils.mapper.EstoqueMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;

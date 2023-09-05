@@ -9,5 +9,4 @@ import javax.persistence.*;
 @Getter
 @Setter
 public class Comprador extends Usuario{
-
 }

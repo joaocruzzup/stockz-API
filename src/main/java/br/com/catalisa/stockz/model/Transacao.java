@@ -10,7 +10,6 @@ import javax.persistence.*;
 import java.time.LocalDateTime;
 
 @Entity
-@Inheritance(strategy = InheritanceType.JOINED)
 @AllArgsConstructor
 @NoArgsConstructor
 @Getter
@@ -31,9 +30,11 @@ public class Transacao {
     private TipoTransacao tipoTransacao;
 
     @ManyToOne(cascade = CascadeType.ALL)
+    @JoinColumn(name = "produto_id")
     private Produto produto;
 
     @ManyToOne(cascade = CascadeType.ALL)
+    @JoinColumn(name = "usuario_id")
     private Usuario usuario;
 
     @ManyToOne(cascade = CascadeType.ALL)

@@ -5,8 +5,6 @@ import br.com.catalisa.stockz.enums.TipoTransacao;
 import br.com.catalisa.stockz.model.*;
 import br.com.catalisa.stockz.model.dto.EstoqueDTO;
 import br.com.catalisa.stockz.repository.EstoqueRepository;
-import br.com.catalisa.stockz.repository.TransacaoEntradaRepository;
-import br.com.catalisa.stockz.repository.TransacaoSaidaRepository;
 import br.com.catalisa.stockz.utils.mapper.EstoqueMapper;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;

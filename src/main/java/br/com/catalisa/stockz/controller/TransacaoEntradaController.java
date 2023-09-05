@@ -2,7 +2,6 @@ package br.com.catalisa.stockz.controller;
 
 import br.com.catalisa.stockz.model.dto.TransacaoEntradaDTO;
 import br.com.catalisa.stockz.model.dto.TransacaoEntradaResponseDTO;
-import br.com.catalisa.stockz.service.TransacaoEntradaService;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.Parameter;
 import io.swagger.v3.oas.annotations.enums.ParameterIn;

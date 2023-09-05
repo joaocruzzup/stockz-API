@@ -1,16 +1,12 @@
 package br.com.catalisa.stockz.controller;
 
 import br.com.catalisa.stockz.enums.StatusProduto;
-import br.com.catalisa.stockz.enums.TipoTransacao;
 import br.com.catalisa.stockz.model.*;
 import br.com.catalisa.stockz.model.dto.*;
-import br.com.catalisa.stockz.service.TransacaoEntradaService;
-import br.com.catalisa.stockz.utils.mapper.TransacaoEntradaMapper;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
-import org.mockito.Mock;
 import org.mockito.Mockito;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;

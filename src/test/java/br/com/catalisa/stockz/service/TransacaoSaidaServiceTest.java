@@ -9,8 +9,6 @@ import br.com.catalisa.stockz.model.dto.TransacaoSaidaResponseDTO;
 import br.com.catalisa.stockz.repository.CompradorRepository;
 import br.com.catalisa.stockz.repository.EstoqueRepository;
 import br.com.catalisa.stockz.repository.ProdutoRepository;
-import br.com.catalisa.stockz.repository.TransacaoSaidaRepository;
-import br.com.catalisa.stockz.utils.mapper.TransacaoSaidaMapper;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;

@@ -4,7 +4,6 @@ import br.com.catalisa.stockz.enums.StatusProduto;
 import br.com.catalisa.stockz.model.Categoria;
 import br.com.catalisa.stockz.model.Produto;
 import br.com.catalisa.stockz.model.dto.*;
-import br.com.catalisa.stockz.service.TransacaoSaidaService;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
